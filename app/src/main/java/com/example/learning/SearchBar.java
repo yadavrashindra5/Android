@@ -45,7 +45,7 @@ public class SearchBar extends AppCompatActivity {
 
 
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false));
 
 
 
